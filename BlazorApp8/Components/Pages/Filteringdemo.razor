@@ -1,0 +1,125 @@
+﻿@page "/Filtering"
+
+@rendermode InteractiveServer
+
+@using Syncfusion.Blazor.MultiColumnComboBox
+@using Syncfusion.Blazor.DropDowns
+
+<table style="width: 100%;">
+    <tr>
+        <td style="vertical-align: top; padding-right: 20px;">
+            <SfMultiColumnComboBox TItem="Employee" TValue="string" AllowFiltering="true"
+                                   @bind-Value="@Value" DataSource="@Employees" ValueField="Name"
+                                   TextField="Name" Placeholder="Select an employee" Width="500px">
+            </SfMultiColumnComboBox>
+        </td>
+        <td style="vertical-align: top;">
+            <table>
+                <tr>
+                    <td style="padding-bottom: 10px;">
+                        <label for="ddlFilterType">Filter Type:</label>
+                    </td>
+                    <td style="padding-bottom: 10px;">
+                        <SfDropDownList TValue="Syncfusion.Blazor.MultiColumnComboBox.FilterType"
+                                        TItem="string" Placeholder="Select a filter type"
+                                        DataSource="@EnumValues" @bind-Value="@ddlVal" Width="300px" Id="ddlFilterType">
+                        </SfDropDownList>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+@code {
+    public class Employee
+    {
+        public string Name { get; set; }
+        public string Department { get; set; }
+        public string Role { get; set; }
+        public string Location { get; set; }
+        public int Experience { get; set; }
+    }
+
+    private string Value { get; set; } = "Alice Johnson";
+
+    private List<Employee> Employees = new List<Employee>();
+
+    protected override Task OnInitializedAsync()
+    {
+        Employees = new List<Employee>
+        {
+            new Employee
+            {
+                Name = "Alice Johnson",
+                Department = "Engineering",
+                Role = "Software Engineer",
+                Location = "New York",
+                Experience = 5
+            },
+            new Employee
+            {
+                Name = "Bob Smith",
+                Department = "Marketing",
+                Role = "Marketing Manager",
+                Location = "San Francisco",
+                Experience = 7
+            },
+            new Employee
+            {
+                Name = "Catherine Lee",
+                Department = "Finance",
+                Role = "Financial Analyst",
+                Location = "Chicago",
+                Experience = 4
+            },
+            new Employee
+            {
+                Name = "David Kim",
+                Department = "Engineering",
+                Role = "DevOps Engineer",
+                Location = "Austin",
+                Experience = 6
+            },
+            new Employee
+            {
+                Name = "Eva Brown",
+                Department = "Sales",
+                Role = "Sales Executive",
+                Location = "Boston",
+                Experience = 3
+            },
+            new Employee
+            {
+                Name = "Frank White",
+                Department = "Human Resources",
+                Role = "HR Manager",
+                Location = "Seattle",
+                Experience = 8
+            },
+            new Employee
+            {
+                Name = "Grace Green",
+                Department = "Design",
+                Role = "UX Designer",
+                Location = "Los Angeles",
+                Experience = 5
+            },
+            new Employee
+            {
+                Name = "Hank Wilson",
+                Department = "Engineering",
+                Role = "Front-end Developer",
+                Location = "Denver",
+                Experience = 4
+            }
+        };
+
+        return base.OnInitializedAsync();
+    }
+
+    public string[] EnumValues = Enum.GetNames(typeof(Syncfusion.Blazor.MultiColumnComboBox.FilterType));
+
+    public Syncfusion.Blazor.MultiColumnComboBox.FilterType ddlVal { get; set; } = Syncfusion.Blazor.MultiColumnComboBox.FilterType.Contains;
+}

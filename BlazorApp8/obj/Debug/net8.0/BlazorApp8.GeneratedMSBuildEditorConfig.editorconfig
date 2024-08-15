@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp8
+build_property.RootNamespace = BlazorApp8
+build_property.ProjectDir = C:\Users\DeepakRamakrishnan\Downloads\BlazorApp8 (2)\BlazorApp8\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DeepakRamakrishnan\Downloads\BlazorApp8 (2)\BlazorApp8
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Filteringdemo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGaWx0ZXJpbmdkZW1vLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Formsupport.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGb3Jtc3VwcG9ydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Grouping.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHcm91cGluZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Paging.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYWdpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Remote.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZW1vdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Rowstyle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSb3dzdHlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Sortingdemo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTb3J0aW5nZGVtby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Templates.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZW1wbGF0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Virtualizationdemo.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xWaXJ0dWFsaXphdGlvbmRlbW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-xlse76yprd
+
+[C:/Users/DeepakRamakrishnan/Downloads/BlazorApp8 (2)/BlazorApp8/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ht3owmx07s

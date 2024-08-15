@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\pages\\templates.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\pages\\templates.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\pages\\formsupport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\pages\\formsupport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\pages\\rowstyle.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\pages\\rowstyle.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32F5870-288A-409B-B6AC-E3C24FFE8786}|D:\\Multicolumn_Combobox\\ej2-blazor-source\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj|d:\\multicolumn_combobox\\ej2-blazor-source\\syncfusion.blazor\\multicolumncombobox\\sfmulticolumncombobox.builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32F5870-288A-409B-B6AC-E3C24FFE8786}|D:\\Multicolumn_Combobox\\ej2-blazor-source\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj|d:\\multicolumn_combobox\\ej2-blazor-source\\syncfusion.blazor\\syncfusion.blazor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\pages\\grouping.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\pages\\grouping.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|c:\\users\\deepakramakrishnan\\downloads\\blazorapp8 (2)\\blazorapp8\\components\\pages\\sortingdemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{668CFF64-57CC-4512-94E4-1F9E56A6A960}|BlazorApp8.csproj|solutionrelative:components\\pages\\sortingdemo.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rowstyle.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Rowstyle.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Rowstyle.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Rowstyle.razor",
+              "RelativeToolTip": "Components\\Pages\\Rowstyle.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T17:42:51.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SfMultiColumnComboBox.Builder.cs",
+              "DocumentMoniker": "D:\\Multicolumn_Combobox\\ej2-blazor-source\\Syncfusion.Blazor\\MultiColumnComboBox\\SfMultiColumnComboBox.Builder.cs",
+              "ToolTip": "D:\\Multicolumn_Combobox\\ej2-blazor-source\\Syncfusion.Blazor\\MultiColumnComboBox\\SfMultiColumnComboBox.Builder.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAQwEYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T14:36:42.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T13:12:33.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Templates.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Templates.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Templates.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Templates.razor",
+              "RelativeToolTip": "Components\\Pages\\Templates.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T13:04:25.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T12:55:43.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Formsupport.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Formsupport.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Formsupport.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Formsupport.razor",
+              "RelativeToolTip": "Components\\Pages\\Formsupport.razor",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAGIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T17:51:15.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Syncfusion.Blazor",
+              "DocumentMoniker": "D:\\Multicolumn_Combobox\\ej2-blazor-source\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj",
+              "ToolTip": "D:\\Multicolumn_Combobox\\ej2-blazor-source\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-15T13:30:34.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T12:59:21.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sortingdemo.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Sortingdemo.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Sortingdemo.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Sortingdemo.razor",
+              "RelativeToolTip": "Components\\Pages\\Sortingdemo.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T12:54:22.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Grouping.razor",
+              "DocumentMoniker": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Grouping.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Grouping.razor",
+              "ToolTip": "C:\\Users\\DeepakRamakrishnan\\Downloads\\BlazorApp8 (2)\\BlazorApp8\\Components\\Pages\\Grouping.razor",
+              "RelativeToolTip": "Components\\Pages\\Grouping.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T12:52:01.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

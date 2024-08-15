@@ -1,0 +1,24 @@
+﻿@page "/remote"
+
+@rendermode InteractiveServer
+
+@using Syncfusion.Blazor.MultiColumnComboBox
+@using Syncfusion.Blazor.Data
+
+<SfMultiColumnComboBox TItem="EmployeeData" TValue="string" @bind-Value="@EmployeeValue" ValueField="EmployeeID" TextField="FirstName" Placeholder="Select any product">
+    <SfDataManager Url="https://blazor.syncfusion.com/services/production/api/Employees" Offline="true" CrossDomain="true" Adaptor="Syncfusion.Blazor.Adaptors.WebApiAdaptor"></SfDataManager>
+</SfMultiColumnComboBox>
+
+@code {
+    public string EmployeeValue { get; set; } = "Andrew";
+
+    public Query RemoteQuery = new Query();
+
+    public class EmployeeData
+    {
+        public int EmployeeID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Country { get; set; }
+    }
+}
