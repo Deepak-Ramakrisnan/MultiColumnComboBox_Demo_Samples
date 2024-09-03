@@ -3,11 +3,63 @@
 @rendermode InteractiveServer
 
 @using Syncfusion.Blazor.MultiColumnComboBox
+@using Syncfusion.Blazor.Data
 
-<SfMultiColumnComboBox @bind-Value="@Value" DataSource="@Products" ValueField="Name" Placeholder="Select any product" >
+<button @onclick="Clickhandler">Value change</button>
+<button @onclick="Clickhandler1">Index change</button>
+
+
+ Value ==> @Value
+
+@*  <Syncfusion.Blazor.DropDowns.SfDropDownList TValue="string" TItem="string" >
+    <Syncfusion.Blazor.DropDowns.DropDownListEvents TValue="string" TItem="string" ValueChange="Valuechangeddlhandler"></Syncfusion.Blazor.DropDowns.DropDownListEvents>
+ </Syncfusion.Blazor.DropDowns.SfDropDownList> *@
+
+<SfMultiColumnComboBox TValue="string" TItem="Product" @bind-Index="@index" DataSource="@Products" PopupHeight="300px" ValueChange="ValueChangeHandler1" PopupWidth="500px" AllowPaging="true" PageSize="4" ValueField="Name" TextField="Name" Placeholder="Select any product">
+    @* <MultiColumnComboboxColumns>
+        <MultiColumnComboboxColumn Field="Name" Width="200px"></MultiColumnComboboxColumn>
+        <MultiColumnComboboxColumn Field="Price" Width="100px"></MultiColumnComboboxColumn>
+        <MultiColumnComboboxColumn Field="Category" Width="200px"></MultiColumnComboboxColumn>
+        <MultiColumnComboboxColumn Field="Availability" Width="150px"></MultiColumnComboboxColumn>
+
+    </MultiColumnComboboxColumns> *@
+
 </SfMultiColumnComboBox>
 
 @code {
+
+    private async Task ValueChangeHandler1(ValueChangeEventArgs<string, Product> args)
+    {
+        Value = args.Value;
+    }
+
+
+    private async Task Valuechangeddlhandler(Syncfusion.Blazor.DropDowns.ChangeEventArgs<string,string> args)
+    {
+
+    }
+
+    private bool isValueChanged { get; set; }
+    private bool isIndexChanged { get; set; }
+
+
+    private int count { get; set; } = 0;
+
+    private int? index { get; set; }
+
+    public void Clickhandler()
+    {
+        count++;
+        Value = isValueChanged ? count % 3 == 0 ? null : "Monitor" : "Keyboard";
+        isValueChanged = !isValueChanged;
+    }
+
+    public void Clickhandler1()
+    {
+        count++;
+        index = isIndexChanged ? count % 3 == 0 ? count : 2 : 4;
+        isIndexChanged = !isIndexChanged;
+    }
 
     public class Product
     {
@@ -17,11 +69,8 @@
         public string Category { get; set; }
         public double Rating { get; set; }
     }
-
-    private string Value { get; set; } = "Smartphone";
-
     private List<Product> Products = new List<Product>();
-
+    private string Value { get; set; } = "Smartphone";
     protected override Task OnInitializedAsync()
     {
         Products = new List<Product>
@@ -50,3 +99,12 @@
         return base.OnInitializedAsync();
     }
 }
+
+<style>
+
+    .e-multicolumn-list .e-popup-content .e-multicolumn-grid.e-responsive.e-device
+    {
+
+    }
+
+</style>

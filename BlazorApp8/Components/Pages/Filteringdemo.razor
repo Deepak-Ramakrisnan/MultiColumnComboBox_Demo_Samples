@@ -9,8 +9,8 @@
     <tr>
         <td style="vertical-align: top; padding-right: 20px;">
             <SfMultiColumnComboBox TItem="Employee" TValue="string" AllowFiltering="true"
-                                   @bind-Value="@Value" DataSource="@Employees" ValueField="Name"
-                                   TextField="Name" Placeholder="Select an employee" Width="500px">
+                                   DataSource="@Employees" ValueField="Name"
+                                   TextField="Name" Placeholder="Select an employee" Width="500px" FilterType="@ddlVal">
             </SfMultiColumnComboBox>
         </td>
         <td style="vertical-align: top;">

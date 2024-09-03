@@ -4,11 +4,11 @@
 
 @using Syncfusion.Blazor.MultiColumnComboBox
 
-<SfMultiColumnComboBox TItem="Employee" TValue="string" AllowFiltering="true"
+<SfMultiColumnComboBox TItem="Employee" TValue="string" AllowFiltering="true" PopupWidth="650px"
                        @bind-Value="@Value" DataSource="@Employees" ValueField="Name"
-                       TextField="Name" Placeholder="Select an employee" Width="750px">
+                       TextField="Name" Placeholder="Select an employee" Width="250px">
     <MultiColumnComboboxColumns>
-        <MultiColumnComboboxColumn Field="EmployeeID">
+        <MultiColumnComboboxColumn Field="EmployeeID" Width="80px">
             <Template>
                 @{
                     var EmployeeInfo = (context as Employee);
@@ -19,11 +19,11 @@
             </Template>
             <HeaderTemplate>
                 <div>
-                    <span class="e-icon-userlogin e-icons employee"></span> Employee Photo
+                    <span class="e-icon-userlogin e-icons employee"></span> Photo
                 </div>
             </HeaderTemplate>
         </MultiColumnComboboxColumn>
-        <MultiColumnComboboxColumn Field="Name">
+        <MultiColumnComboboxColumn Field="Name" Width="120px">
             <Template>
                 @{
                     var EmployeeInfo = (context as Employee);
@@ -32,11 +32,29 @@
                 }
             </Template>
         </MultiColumnComboboxColumn>
-        <MultiColumnComboboxColumn Field="Department" />
-        <MultiColumnComboboxColumn Field="Experience" />
-        <MultiColumnComboboxColumn Field="Location" />
+        <MultiColumnComboboxColumn Field="Department" Width="80px" />
+        <MultiColumnComboboxColumn Field="Experience" Width="80px" />
+        <MultiColumnComboboxColumn Field="Location" Width="80px" />
     </MultiColumnComboboxColumns>
 </SfMultiColumnComboBox>
+
+
+<Syncfusion.Blazor.Grids.SfGrid  TValue="Employee" DataSource="@Employees" >
+    <Syncfusion.Blazor.Grids.GridColumns>
+        <Syncfusion.Blazor.Grids.GridColumn Field="EmployeeID" Width="50px">
+            <Template>
+                @{
+                    var EmployeeInfo = (context as Employee);
+                    <div class="image">
+                        <img src="/images/employees/@EmployeeInfo.EmployeeID" alt="@EmployeeInfo.EmployeeID" />
+                    </div>
+                }
+            </Template>
+        </Syncfusion.Blazor.Grids.GridColumn>
+        <Syncfusion.Blazor.Grids.GridColumn Field="Name" Width="250px"></Syncfusion.Blazor.Grids.GridColumn>
+        <Syncfusion.Blazor.Grids.GridColumn Field="Department" Width="300px"></Syncfusion.Blazor.Grids.GridColumn>
+    </Syncfusion.Blazor.Grids.GridColumns >
+</Syncfusion.Blazor.Grids.SfGrid>
 
 @code {
     public class Employee
@@ -73,7 +91,7 @@
                 Role = "Marketing Manager",
                 Location = "San Francisco",
                 Experience = 7,
-                EmployeeID = 2
+                EmployeeID = 7
             },
             new Employee
             {
@@ -91,7 +109,7 @@
                 Role = "DevOps Engineer",
                 Location = "Austin",
                 Experience = 6,
-                EmployeeID = 4
+                EmployeeID = 8
             },
             new Employee
             {
@@ -109,7 +127,7 @@
                 Role = "HR Manager",
                 Location = "Seattle",
                 Experience = 8,
-                EmployeeID = 6
+                EmployeeID = 9
             },
             new Employee
             {
@@ -118,16 +136,16 @@
                 Role = "UX Designer",
                 Location = "Los Angeles",
                 Experience = 5,
-                EmployeeID = 7
+                EmployeeID = 2
             },
             new Employee
             {
                 Name = "Hank Wilson",
                 Department = "Engineering",
-                Role = "Front-end Developer",
+                Role = "Product Manager",
                 Location = "Denver",
-                Experience = 4,
-                EmployeeID = 8
+                Experience = 24,
+                EmployeeID = 10
             }
         };
 
@@ -136,6 +154,18 @@
 }
 
 <style>
+
+    .control-wrapper {
+        max-width: 250px;
+        padding: 30px 0px 0px;
+        margin: 0 auto;
+    }
+
+    .example-label {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
     @@font-face {
         font-family: 'ej2-headertemplate';
         src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype');

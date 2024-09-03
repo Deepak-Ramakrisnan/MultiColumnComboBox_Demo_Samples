@@ -3,7 +3,6 @@
 @rendermode InteractiveServer
 
 @using Syncfusion.Blazor.MultiColumnComboBox
-
 @using Syncfusion.Blazor.DropDowns
 @using Syncfusion.Blazor.Buttons;
 @using System.ComponentModel.DataAnnotations;
@@ -39,6 +38,7 @@
 
     public class Product
     {
+        [Required]
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Availability { get; set; }

@@ -1,12 +1,26 @@
 ﻿@page "/Virtualization"
 
+@page "/multicolumncombobox-features"
 @rendermode InteractiveServer
-
+@using Syncfusion.Blazor
 @using Syncfusion.Blazor.MultiColumnComboBox
-
-<SfMultiColumnComboBox TItem="Employee" TValue="string" EnableVirtualization="true" @bind-Value="@Value" DataSource="@Employees" ValueField="Name"  Placeholder="Select any product" >
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Buttons;
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Inputs
+<PageTitle>MultiColumn ComboBox</PageTitle>
+<h2>MultiColumn ComboBox</h2>
+<br />
+<div>
+    <h3>Selected Features:</h3>
+    <ul class="ulstyle">
+        <li class="list"> MultiColumn ComboBox Samples - Virtualization</li>
+        <li class="list"> Theme - Fluent</li>
+    </ul>
+</div>
+<br />
+<SfMultiColumnComboBox TItem="Employee" TValue="string" EnableVirtualization="true" TextField="Name" Width="600px" @bind-Value="@Value" DataSource="@Employees" ValueField="Name" Placeholder="Select any product">
 </SfMultiColumnComboBox>
-
 @code {
     public class Employee
     {
@@ -16,11 +30,8 @@
         public string Location { get; set; }
         public int Experience { get; set; }
     }
-
     private string Value { get; set; } = "Alice Johnson";
-
     private List<Employee> Employees = new List<Employee>();
-
     protected override Task OnInitializedAsync()
     {
         List<Employee> employees = new List<Employee>();
@@ -28,9 +39,7 @@
         string[] departments = { "HR", "IT", "Finance", "Marketing", "Sales" };
         string[] roles = { "Manager", "Developer", "Analyst", "Consultant", "Executive" };
         string[] locations = { "New York", "San Francisco", "London", "Berlin", "Tokyo" };
-
         Random rand = new Random();
-
         for (int i = 1; i <= 2000; i++)
         {
             employees.Add(new Employee
@@ -42,9 +51,7 @@
                     Experience = rand.Next(1, 21) // Experience between 1 and 20 years
                 });
         }
-
         Employees = employees;
-
         return base.OnInitializedAsync();
     }
 }
