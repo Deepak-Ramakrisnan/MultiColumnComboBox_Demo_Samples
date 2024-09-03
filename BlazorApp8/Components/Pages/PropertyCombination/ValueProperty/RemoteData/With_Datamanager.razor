@@ -1,0 +1,71 @@
+﻿@page "/Datamanager"
+
+@rendermode InteractiveServer
+
+@using Syncfusion.Blazor.MultiColumnComboBox
+@using Syncfusion.Blazor.Data
+
+<button @onclick="Clickhandler">Value change</button>
+
+ Value ==> @EmployeeValue
+
+<SfMultiColumnComboBox TItem="EmployeeData" TValue="string" Placeholder="Select any product" Query="RemoteQuery" ValueField="FirstName" TextField="FirstName" @bind-Value="@EmployeeValue">
+    <SfDataManager Url="https://blazor.syncfusion.com/services/production/api/Employees" CrossDomain="true" Adaptor="Syncfusion.Blazor.Adaptors.WebApiAdaptor"></SfDataManager>
+</SfMultiColumnComboBox>
+
+@code {
+    private Query Query { get; set; } = new Query();
+    private bool isValueChanged { get; set; }
+    private int count { get; set; } = 0;
+
+
+    public void Clickhandler()
+    {
+        count++;
+        EmployeeValue = isValueChanged ? count % 3 == 0 ? null : "Margaret Peacock" : "Nancy Davolio";
+        isValueChanged = !isValueChanged;
+    }
+
+    public class Product
+    {
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Availability { get; set; }
+        public string Category { get; set; }
+        public double Rating { get; set; }
+    }
+
+    private string Value { get; set; } = "Smartphone";
+
+    private List<Product> Products = new List<Product>();
+
+    protected override Task OnInitializedAsync()
+    {
+        return base.OnInitializedAsync();
+    }
+}
+
+
+@code {
+    public string EmployeeValue { get; set; } = "Andrew Fuller";
+
+    public Query RemoteQuery = new Query();
+
+    public class EmployeeData
+    {
+        public int EmployeeID { get; set; }
+        public string FirstName { get; set; }
+        public string Country { get; set; }
+    }
+
+
+}
+
+
+
+
+<style>
+    .e-multicolumn-container .e-input-group-icon.e-multicolumn-list-icon.e-ddl-disable-icon {
+        position: relative;
+    }
+</style>
