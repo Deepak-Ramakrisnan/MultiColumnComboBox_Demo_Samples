@@ -1,0 +1,33 @@
+﻿@page "/filtering2"
+@rendermode InteractiveServer
+@using Syncfusion.Blazor
+@using Syncfusion.Blazor.MultiColumnComboBox
+@using Syncfusion.Blazor.DropDowns
+@using Syncfusion.Blazor.Buttons;
+@using Syncfusion.Blazor.Data
+@using Syncfusion.Blazor.Inputs
+<PageTitle>MultiColumn ComboBox</PageTitle>
+<h2>MultiColumn ComboBox</h2>
+<br />
+<div>
+    <h3>Selected Features:</h3>
+    <ul class="ulstyle">
+        <li class="list"> MultiColumn ComboBox Samples - Remote Data</li>
+        <li class="list"> Theme - Fluent</li>
+    </ul>
+</div>
+<br />
+<SfMultiColumnComboBox TItem="EmployeeData" TValue="string" @bind-Value="@EmployeeValue" Width="500px" ValueField="EmployeeID" TextField="Name" Placeholder="Select any product">
+    <SfDataManager Url="https://blazor.syncfusion.com/services/production/api/Employees" Offline="true" CrossDomain="true" Adaptor="Syncfusion.Blazor.Adaptors.WebApiAdaptor"></SfDataManager>
+</SfMultiColumnComboBox>
+@code {
+    public string EmployeeValue { get; set; } = "Andrew";
+    public Query RemoteQuery = new Query();
+    public class EmployeeData
+    {
+        public int EmployeeID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Country { get; set; }
+    }
+}
